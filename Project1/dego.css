@@ -1,0 +1,156 @@
+*{
+   list-style: none;
+}
+
+
+body{
+    font-family: "Harmattan", serif;
+}
+
+
+.ul-menu{
+    background-color: rgb(24, 24, 24) ; 
+    color: azure;
+    
+    overflow: hidden;
+    text-align: center;
+ }
+ .li1{
+    float: right;
+ }
+ .p1{
+    font-size: 40px;
+    display: inline;
+ }
+ .a-menu{
+    text-decoration: none;
+    color: beige;
+    font-size: 20px;
+    display: block;
+    padding: 17px;
+    
+ }
+
+ .li1 a:hover{
+    background-color: black;
+ }
+ .harmattan-regular {
+    font-family: "Harmattan", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .column{
+width: 50%;
+float: left;
+text-align: center;
+  }
+  
+  .profile{
+   width: 200px;
+   height: 200px;
+   border-radius: 200px; 
+  }
+
+  .social{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+  }
+  .right{
+width: 80%;
+float: left;
+  }
+  .left{
+      width: 20%;
+      float: left;
+  }
+
+  .row{
+   padding: 2px;
+  }
+
+  .row:after{
+      display: table;
+      clear: both;
+      content:"" ;
+      /* clearing every thing after the row */
+  }
+
+  .mainbar{
+   background-color: gray;
+   display:block ;
+   height: 30px;
+  }
+
+  .mainbar span{
+   background-color: teal;
+   height: 30px;
+   display: block;
+   color: white;
+  }
+
+  .jvascript{
+   animation: jvascript 2s ; 
+   width: 90%;
+  }
+  .cplusplus{
+   animation: cplusplus 2s ; 
+   width: 70%;
+  }
+  .Android{
+   animation: Android 2s ; 
+   width: 50%;
+  }
+  .csharp{
+   animation: csharp 2s ; 
+   width: 40%;
+  }
+
+  @keyframes jvascript {
+   0%{
+width: 0%;
+   }
+   100%{
+width: 90%;
+   }
+  }
+
+  @keyframes Android {
+   0%{
+width: 0%;
+   }
+   100%{
+width: 50%;
+   }
+  }
+  @keyframes csharp {
+   0%{
+width: 0%;
+   }
+   100%{
+width: 40%;
+   }
+  }
+  @keyframes cplusplus {
+   0%{
+width: 0%;
+   }
+   100%{
+width: 70%;
+   }
+  }
+
+  .footer{
+   width: 100%;
+   height: 40px;
+   background-color:  rgb(24, 24, 24);
+   color: white;
+   text-align: center;
+  }
+
+  @media screen  and (max-width:800px){
+   .column{
+      width: 100%;
+   }
+  }
